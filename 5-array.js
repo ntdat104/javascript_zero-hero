@@ -39,3 +39,28 @@ console.log("person[3] =", person[3]); //* [9, 8, 10]
 console.log("person[3][0] =", person[3][0]); //* 9
 console.log("person[3][1] =", person[3][1]); //* 8
 console.log("person[3][2] =", person[3][2]); //* 10
+
+//TODO Array nâng cao
+var apple = {
+  color: "green",
+};
+var cherry = {
+  color: "red",
+};
+var banana = {
+  color: "yellow",
+};
+
+var fruits = [apple, cherry, banana];
+console.log("fruits =", fruits);
+console.log("fruits[0] =", fruits[0]);
+console.log("fruits[0].color =", fruits[0].color);
+
+var contacts = [
+  { name: "Dat", phone: 123 },
+  { name: "Binh", phone: 456 },
+  { name: "Tuan Anh", phone: 789 },
+];
+console.log("contacts =", contacts);
+console.log("contacts[2] =", contacts[2]);
+console.log("contacts[2].name =", contacts[2].name);

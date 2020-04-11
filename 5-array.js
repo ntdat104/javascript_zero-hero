@@ -1,4 +1,4 @@
-console.log("Bài 6: Mảng trong Javascript (array)");
+console.log("Bài 5: Mảng trong Javascript (array)");
 
 //! Terms(thuật ngữ): array(mảng), element(phần tử), index(chỉ số), length(độ dài)
 

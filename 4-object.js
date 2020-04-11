@@ -1,4 +1,4 @@
-console.log("Bài 4: Object trong Javascript");
+console.log("Bài 4: Đối tượng trong Javascript (Object)");
 
 var person = {
   firstName: "Dat",

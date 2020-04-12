@@ -43,6 +43,19 @@ var fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log("Phần tử vừa xóa là:", fruits.shift()); //* Banana
 console.log("fruits =", fruits); //* ['Orange', 'Apple', 'Mango']
 
+//! Array.indexOf()
+//TODO Array.indexOf dùng để tìm kiếm một phần tử nào đó có trong mảng Array không, và trả về chỉ số xuất hiện đầu tiên trong mảng.
+//* Nếu không tồn tại => Trả về -1
+var fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
+var index = fruits.indexOf("Apple") //* index = 2
+console.log("index =", fruits.indexOf("Apple"));
+
+//! Array.lastIndexOf()
+//TODO Array.lastIndexOf dùng để tìm kiếm một phần tử nào đó có trong mảng Array không, và trả về chỉ số xuất hiện cuối cùng trong mảng.
+//* Nếu không tồn tại => Trả về -1
+var fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
+var index = fruits.lastIndexOf("Apple") //* index = 4
+console.log("index =", fruits.lastIndexOf("Apple"));
 
 
 

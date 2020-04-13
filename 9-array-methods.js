@@ -66,3 +66,42 @@ console.log("index =", fruits.lastIndexOf("Apple"));
 
 var index = fruits.lastIndexOf("Kiwi"); //* index = -1
 console.log("index =", index);
+
+//! Array.includes()
+//TODO Array.includes dùng để kiểm tra xem phần tử cần tìm có nằm trong array hay không.
+//* Nếu có thì trả về true
+//* Nếu không thì trả về false
+//? Bài toán
+function test(fruit) {
+  if (fruit == "apple" || fruit == "strawberry") {
+    console.log("red");
+  }
+}
+
+//? Tối ưu 1
+function test1(fruit) {
+  var redFruits = ["apple", "strawberry", "cherry", "cranberries"];
+  if (redFruits.includes(fruit)) {
+    console.log("red");
+  }
+}
+
+//? Tối ưu 2
+function test2(fruit, quantity) {
+  const redFruits = ["apple", "strawberry", "cherry", "cranberries"];
+  //! condition 1: throw error early
+  if (!fruit) {
+    console.log("No fruit!")
+  }
+  //! condition 2: must be red
+  if (redFruits.includes(fruit)) {
+    console.log("red");
+    //! condition 3: must be big quantity
+    if (quantity > 10) {
+      console.log("big quantity");
+    }
+  }
+}
+test2(null);
+test2("apple");
+test2("apple", 20);

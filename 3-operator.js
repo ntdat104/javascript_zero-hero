@@ -15,13 +15,13 @@ console.log("Bài 3: Toán tử trong JAVASCRIPT (Operator)");
  * --x //* (Trừ trước rồi gán sau)
  */
 
-//? Ví dụ 1:
+//* Ví dụ 1:
 var number1 = 50;
 var number2 = 150;
 var average = (number1 + number2) / 2;
 console.log("average =", average); //* 100
 
-//? Ví dụ 2:
+//* Ví dụ 2:
 var a, b, sum;
 a = 5;
 b = 10;
@@ -40,9 +40,9 @@ console.log("sum = ", sum); //* 100
 //* >,<,=,>=,<=,==,===,!=,!==,!
 //! Tất cả các giá trị so sánh đều trả về true hoặc false
 
-//? Ví dụ:
+//* Ví dụ:
 var age = 20;
-console.log("age =", age);
+console.log("age =", age); //* 20
 console.log("age >= 20", age >= 20); //* true
 console.log("age > 30", age > 30); //* false
 console.log("!(age > 30)", !(age > 30)); //* true

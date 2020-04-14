@@ -71,6 +71,7 @@ console.log("index =", index);
 //TODO Array.includes dùng để kiểm tra xem phần tử cần tìm có nằm trong array hay không.
 //* Nếu có thì trả về true
 //* Nếu không thì trả về false
+
 //? Bài toán
 function test(fruit) {
   if (fruit == "apple" || fruit == "strawberry") {
@@ -78,20 +79,20 @@ function test(fruit) {
   }
 }
 
-//? Tối ưu 1
+//* Tối ưu 1
 function test1(fruit) {
-  var redFruits = ["apple", "strawberry", "cherry", "cranberries"];
+  var redFruits = ["apple", "strawberry", "cherry", "kiwi"];
   if (redFruits.includes(fruit)) {
     console.log("red");
   }
 }
 
-//? Tối ưu 2
+//* Tối ưu 2
 function test2(fruit, quantity) {
-  const redFruits = ["apple", "strawberry", "cherry", "cranberries"];
+  const redFruits = ["apple", "strawberry", "cherry", "kiwi"];
   //! condition 1: throw error early
   if (!fruit) {
-    console.log("No fruit!")
+    console.log("No fruit!");
   }
   //! condition 2: must be red
   if (redFruits.includes(fruit)) {

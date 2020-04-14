@@ -16,7 +16,7 @@ console.log(Mouse.prototype.constructor);
 console.log(Mouse.prototype.constructor === Mouse);
 
 Mouse.prototype.sleep = function () {
-  //* dùng cách này tiết kiệm bộ nhớ hơn
+  //! dùng cách này tiết kiệm bộ nhớ hơn
   console.log(this.color, "Sleeping ...");
 };
 

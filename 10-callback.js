@@ -4,7 +4,7 @@ function notify() {
   console.log("notify được gọi");
 }
 function taskOne(callback) {
-  //* Gọi notify function
+  //! Gọi notify function
   console.log("taskOne được gọi");
   callback();
 }

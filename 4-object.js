@@ -8,19 +8,19 @@ var person = {
 };
 
 //TODO Truy suất dữ liệu
-//? Cách 1:
+//* Cách 1:
 console.log("person =", person);
 console.log("person.firstName =", person.firstName); //* Dat
 console.log("person.age =", person.age); //* 20
 console.log("person.isMale =", person.isMale); //* true
 
-//? Cách 2:
+//* Cách 2:
 console.log("person =", person);
 console.log("person['firstName'] =", person["firstName"]); //* Dat
 console.log("person['age'] =", person["age"]); //* 20
 console.log("person['isMale'] =", person["isMale"]); //* true
 
-//! Đột biến giá trị
+//TODO Đột biến giá trị
 person.age = 18; //* hoặc person["age"] = 18
 person.isMale = false; //* hoặc person["isMale"] = false
 console.log("person =", person);

@@ -1,4 +1,4 @@
-console.log("Bài 10: Sử dụng key word 'new'");
+console.log("Bài 16: Sử dụng key word 'new'");
 
 var today = new Date();
 console.log("Today =", today);

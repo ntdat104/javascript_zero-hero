@@ -1,4 +1,4 @@
-console.log("Prototypes trong Javascript (Nguyên mẫu trong Javascript)");
+console.log("Bài 17: Prototypes trong Javascript (Nguyên mẫu trong Javascript)");
 
 function Mouse(color, weight) {
   this.type = "mouse";

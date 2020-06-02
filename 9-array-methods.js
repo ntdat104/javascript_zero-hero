@@ -4,7 +4,7 @@ console.log("Bài 9: Phương thức của mảng (Array methods)");
 //TODO Dùng để chuyển từ Array sang chuỗi(string)
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 var result = fruits.toString();
-console.log("result =", result); //* Banana,Orange,Apple,Mango
+console.log("result =", result); //* "Banana,Orange,Apple,Mango"
 
 //!  Array.from()
 //TODO Dùng để tạo Array từ một chuỗi(string)
